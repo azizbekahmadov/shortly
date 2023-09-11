@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.karobka {
+  width: 100%;
+  max-width: 1940px;
+  margin: auto;
+}
+.karobka .navbar {
+  width: 100%;
+  height: 70px;
+  justify-content: space-around;
+  padding: 20px;
+}
+.karobka .navbar .best {
+  display: flex;
+}
+.karobka .navbar .best .short .short-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.karobka .navbar .best .marj ul {
+  display: flex;
+  margin-top: 7px;
+}
+.karobka .navbar .best .marj li:not(:last-child) {
+  margin-right: 40px;
+  color: rgba(221, 221, 221, 0.733);
+}
+.karobka .navbar .best .marj li a {
+  text-decoration: none;
+  color: rgba(102, 102, 102, 0.733);
+}
+.karobka .navbar .knopkalar .knopkalar-bitn1 {
+  padding: 12px 24px;
+  background: transparent;
+  border: none;
+  color: black;
+}
+.karobka .navbar .knopkalar .knopkalar-bitn2 {
+  padding: 12px 24px;
+  background: rgb(0, 185, 124);
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+}
+.karobka .boding {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+.karobka .boding .boxing {
+  width: 700px;
+  margin-left: 335px;
+  margin-top: 80px;
+}
+.karobka .boding .boxing .boxing-h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.karobka .boding .boxing .boxing-p {
+  margin-top: 20px;
+}
+.karobka .boding .boxing .boxing-btn {
+  padding: 12px 24px;
+  border: none;
+  background: rgb(0, 185, 124);
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.karobka .boding .boding-rasm .boding-img {
+  width: 1000px;
+}
+.karobka .footer {
+  width: 1200px;
+  height: 100px;
+  background-color: #161616;
+  margin: 40px auto;
+  padding: 2px;
+  border-radius: 10px;
+  display: flex;
+}
+.karobka .footer .input-group {
+  width: 960px;
+  height: 50px;
+  margin-left: 20px;
+}
+.karobka .footer .footer-btn {
+  width: 160px;
+  height: 50px;
+  margin-top: 24px;
+  margin-left: 20px;
+  border: none;
+  background: rgb(0, 185, 124);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.oyoq {
+  text-align: center;
+  width: 100%;
+  height: 900px;
+}
+.oyoq .oyoq-h2 {
+  margin-top: 100px;
+}
+
+.items {
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+.items .item1 {
+  width: 330px;
+  height: 280px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.items .item1 .feruz {
+  text-align: left;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 12px;
+}
+.items .item1 .feruz .feruz-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.items .item2 {
+  width: 330px;
+  height: 280px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.items .item2 .feruz {
+  text-align: left;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 12px;
+}
+.items .item2 .feruz .feruz-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.items .item3 {
+  width: 330px;
+  height: 280px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+.items .item3 .feruz {
+  text-align: left;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 12px;
+}
+.items .item3 .feruz .feruz-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.qul {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(70, 0, 136);
+  text-align: center;
+  margin-top: 60px;
+  padding: 50px;
+}
+.qul .qul-img {
+  width: 2000px;
+  margin-left: -60px;
+  height: 300px;
+  margin-top: -50px;
+}
+.qul .qul-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: -200px;
+}
+.qul .qul-btn {
+  padding: 12px 24px;
+  border: none;
+  background-color: rgb(0, 185, 124);
+  color: #fff;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.oxirgi {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  margin-top: -10px;
+  justify-content: space-around;
+  display: flex;
+  padding: 30px;
+}
+.oxirgi .box1 {
+  color: #fff;
+  text-align: none;
+  width: 300px;
+  height: 250px;
+}
+.oxirgi .box1 .oxirgi-h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+.oxirgi .box2 {
+  color: #fff;
+  text-align: none;
+  width: 300px;
+  height: 250px;
+  padding: 50px;
+}
+.oxirgi .box2 .box2-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.oxirgi .box2 .box2-p {
+  color: rgb(180, 180, 180);
+  margin-top: 10px;
+}
+.oxirgi .box3 {
+  color: #fff;
+  text-align: none;
+  width: 300px;
+  height: 250px;
+  padding: 50px;
+}
+.oxirgi .box3 .box2-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.oxirgi .box3 .box2-p {
+  color: rgb(180, 180, 180);
+  margin-top: 10px;
+}
+.oxirgi .box4 {
+  color: #fff;
+  text-align: none;
+  width: 300px;
+  height: 250px;
+  padding: 50px;
+}
+.oxirgi .box4 .box2-h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.oxirgi .box4 .box2-p {
+  color: rgb(180, 180, 180);
+  margin-top: 10px;
+}
+.oxirgi .box5 {
+  color: #fff;
+  text-align: none;
+  width: 300px;
+  height: 250px;
+  padding: 50px;
+}
+.oxirgi .box5 .fa-facebook {
+  font-size: 30px;
+  color: #fff;
+}
+.oxirgi .box5 .fa-twitter {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 10px;
+}
+.oxirgi .box5 .fa-pinterest {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 10px;
+}
+.oxirgi .box5 .fa-instagram {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
